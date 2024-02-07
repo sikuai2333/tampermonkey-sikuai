@@ -77,7 +77,7 @@
                 checkboxContainer.style.flexWrap = 'wrap';
                 checkboxContainer.style.gap = '5px';
                 // 放上常用的网站域名 csdn.net zhihu.com gov.cn baidu.com
-                const commonSites = ['csdn.net', 'zhihu.com', 'gov.cn', 'baidu.com'];
+                const commonSites = ['csdn.net', 'zhihu.com', 'gov.cn', 'baidu.com', 'github.com'];
                 for (const site of commonSites) {
                     const checkbox = document.createElement('input');
                     checkbox.type = 'checkbox';
